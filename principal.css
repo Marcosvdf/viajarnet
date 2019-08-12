@@ -1,0 +1,184 @@
+body {
+    padding-top: 60px;
+}
+
+h3 {
+    font-size: 1.55rem;
+}
+
+.container {
+    max-width: 1260px;
+}
+
+.imagem-fundo {
+    background-image: url("../imagens/Rio-motor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fonte-11 {
+    font-size: 11px;
+}
+
+.fonte-14 {
+    font-size: 14px;
+}
+
+.fonte-18 {
+    font-size: 18px;
+}
+
+.borda {
+    border: 1px solid #e1e1e1;
+}
+
+.amarelo {
+    color: #ffae19;
+}
+
+.azul-escuro {
+    color: #0064bf;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.nav-tabs {
+    border: 0;
+    color: white;
+}
+
+.aba {
+    margin-right: 1px;
+    padding: 10px 20px;
+}
+
+.aba.active {
+    background-color: rgba(0, 84, 159, 0.9) !important;
+}
+
+.nav-tabs .nav-link {
+    border: 0;
+    color: white;
+    background-color: #185991;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background: rgba(1, 100, 191, .9);
+    color: white;
+    border: 0;
+}
+
+.font-form {
+    font-size: 13px;
+    color: white;
+}
+
+.form-card-body {
+    background-color: rgba(0, 84, 159, 0.9);
+}
+
+.format-text-card-body {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.position-ligue-ja {
+    top: 50px;
+    left: -100px;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.passagens-card-body {
+    padding: 0rem;
+}
+
+.format-select,
+.format-select:active,
+.format-select:focus {
+    background-color: #004987;
+    border-color: #004987;
+    color: white;
+}
+
+.ml-15 {
+    margin-left: 15rem;;
+}
+
+.alinhamento-2-8 {
+    line-height: 2.8rem;
+}
+
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #007bff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    margin-bottom: -17px;
+}
+
+.card-nav {
+    border: none;
+}
+
+.badge-economia {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size:20px;
+}
+
+.badge-economia-small {
+    font-size: 8px;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+
+
+@media screen and (min-width: 601px) {
+    .hidden-desktop {
+        display: none;
+    }
+
+    .espaco-nav {
+        margin-left: 3px;
+    }
+
+    .nav-crie {
+        margin-left: 270px;
+        margin-right: 3px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .hidden-mobile {
+        display: none;
+    }
+
+    .imagem-fundo {
+        background-image: none;
+    }
+
+}
